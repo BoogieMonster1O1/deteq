@@ -70,4 +70,6 @@
         <br>
         <div class="p5"><Katex math="{latexVars(currentVarNames)} = {latexVars(result)}"/></div>
     {/if}
+    <br><br>
+    <h6 class="text-xs">Copyright © Shrish Deshpande</h6>
 </div>
