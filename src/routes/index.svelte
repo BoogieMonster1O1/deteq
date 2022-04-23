@@ -26,6 +26,7 @@
 <div class="flex flex-col items-center p-3">
     <h1 class="text-5xl">Equation Solver</h1>
     <h2 class="text-3xl">It uses Matrices ™</h2>
+    <a href="https://github.com/BoogieMonster1O1/deteq.git"><h4 class="text-m underline">Source Code</h4></a>
     <br>
     <div class="flex flex-row">
         <h3 class="text-2xl">Variables: </h3>
