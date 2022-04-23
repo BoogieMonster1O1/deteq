@@ -25,7 +25,7 @@
 
 <div class="flex flex-col items-center p-3">
     <h1 class="text-5xl">deteq</h1>
-    <h2 class="text-3xl">Equation solver that uses Matrices ™</h2>
+    <h2 class="text-3xl">Equation solver that uses Matri ™</h2>
     <a href="https://github.com/BoogieMonster1O1/deteq.git"><h4 class="text-m underline">Source Code</h4></a>
     <br>
     <div class="flex flex-row">
@@ -58,7 +58,7 @@
     <h3 class="text-4xl">Solution</h3>
     <br>
     {#if determinant === 0}
-        <h3 class="text-2xl text-red-500">Could not find a solution to the above system of equations (Zero/Infinite solutions)</h3>
+        <h3 class="text-2xl text-red-500">Concern. No definite solution to the above system of equations (Zero/Infinite solutions)</h3>
     {:else}
         <div class="p5"><Katex math="{latex(coeffs)} \cdot {latexVars(currentVarNames)} = {latexVars(consts)}"/></div>
         <br>
