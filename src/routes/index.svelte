@@ -61,9 +61,10 @@
         <h3 class="text-2xl text-red-500">Could not find a solution to the above system of equations (Zero/Infinite solutions)</h3>
     {:else}
         <div class="p5"><Katex math="{latex(coeffs)} \cdot {latexVars(currentVarNames)} = {latexVars(consts)}"/></div>
-<!--        <Katex math="{latex(coeffs)} \cdot {latexVars(currentVarNames)} = {latexVars(consts)}"/>-->
         <br>
         <div class="p5"><Katex math="{latexVars(currentVarNames)} = &#123;&#123;&#123;{latex(adjacent(coeffs))}&#125;^&#123;\prime&#125;&#125;\over&#123;{detLatex(coeffs)}&#125;&#125;&#123; \cdot {latexVars(consts)}&#125;"/></div>
+        <br>
+        <div class="p5"><Katex math="{latexVars(currentVarNames)} = &#123;&#123;&#123;{latex(transpose(adjacent(coeffs)))}&#125;&#125;\over&#123;{det(coeffs)}&#125;&#125;&#123; \cdot {latexVars(consts)}&#125;"/></div>
         <br>
         <div class="p5"><Katex math="{latexVars(currentVarNames)} = {latex(inv)} \cdot {latexVars(consts)}"/></div>
         <br>
